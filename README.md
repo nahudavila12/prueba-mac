@@ -1,6 +1,6 @@
 # Monitor BLE Ivolution - Mac
 
-¡Hola Seba! Aquí tienes una guía paso a paso para correr este proyecto en Mac, recibir datos de los dispositivos Ivolution (dinamómetro, balance, libre), guardar tests, exportar resultados y más.
+¡Hola! Aca tenes una guía paso a paso para correr este proyecto en Mac, recibir datos de los dispositivos Ivolution (dinamómetro, balance, libre), guardar tests, exportar resultados y más.
 
 ---
 
@@ -95,4 +95,4 @@ Esto abrirá la app en modo desarrollo. Si usas Vite/Electron, se abrirá una ve
 
 ## 10. Contacto
 
-Cualquier duda, escribime por Slack o WhatsApp. ¡Éxitos Seba! 
+Cualquier duda, escribime por WhatsApp. 
