@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "noble-winrt": "^0.1.1",
+    "@abandonware/noble": "^1.12.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "recharts": "^2.15.3"
