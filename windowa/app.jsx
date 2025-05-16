@@ -226,7 +226,7 @@ export default function App() {
 
   return (
     <div style={{ fontFamily: 'sans-serif', margin: 20 }}>
-      <h1>Monitor de Ritmo Cardíaco </h1>
+      <h1>Monitor  </h1>
       <div style={{ marginBottom: 15, padding: 10, background: '#e9ecef', borderRadius: 4 }}>{status}</div>
       {!connectedDevice && (
         isScanning ? (
@@ -255,11 +255,11 @@ export default function App() {
           <h2>Información del Dispositivo Conectado:</h2>
           <div>Conectado a: {connectedDevice.name || connectedDevice.id}</div>
           <div style={{ fontWeight: 'bold', color: '#007bff', marginTop: 10 }}>
-            Ritmo Cardíaco: {heartRate === null ? 'Esperando datos...' : `${heartRate} BPM`}
+            BLE: {heartRate === null ? 'Esperando datos...' : `${heartRate} BPM`}
           </div>
           {hrHistory.length > 1 && (
             <div style={{ marginTop: 30 }}>
-              <h3>Historial de Ritmo Cardíaco</h3>
+              <h3>Historial</h3>
               <ResponsiveContainer width="100%" height={300}>
                 <LineChart data={hrHistory} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                   <CartesianGrid strokeDasharray="3 3" />
